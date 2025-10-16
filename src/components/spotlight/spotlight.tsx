@@ -34,7 +34,6 @@ const Spotlight = () => {
               />
 
               <div className="p-4">
-                
                 {item.description && (
                   <p className="text-gray-800 dark:text-gray-200 font-semibold text-lg mt-3 leading-snug">
                     {item.description}

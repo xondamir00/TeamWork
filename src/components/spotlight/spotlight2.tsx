@@ -5,7 +5,7 @@ const Spotlight2 = () => {
   return (
     <div className="w-full mx-auto px-4 py-8 dark:text-white">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-             <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6">
           {spotlight2.slice(1).map((item) => (
             <div
               key={item.id}
@@ -41,7 +41,6 @@ const Spotlight2 = () => {
             )}
           </div>
         </div>
-   
       </div>
     </div>
   );
